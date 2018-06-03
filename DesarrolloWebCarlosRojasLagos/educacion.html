@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae / Educación</title>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Logo" width="150px"/>
+    <br>
+    <h1>Curriculum Vitae</h1>
+    <h2>Carlos Rojas L.</h2>
+    <h3>08 Octubre 1979 / Santiago, Chile</h3>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="educacion.html">Educación</a> |
+    <a href="experiencia.html">Experiencia</a>
+  </nav>
+  <article>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2012</td>
+          <td>Universidad de Navarra</td>
+          <td>Navarra</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Agencia de comunicación de Madrid</td>
+          <td>Madrid</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Museo de Arte Contemporáneo</td>
+          <td>Burgos</td>
+          <td>2017</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2>Agregar Estudios</h2>
+    <form>
+      <p>
+        <label for="year">Año:</label>
+        <select name="year">
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+        </select>
+      </p>
+      <p>
+        <label for="name">Institución:</label>
+        <input type="text" name="name" required/>
+      </p>
+      <p>
+        <label for="comment">Lugar:</label>
+        <textarea name="comment" rows="2" cols="42"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar"/>
+      </p>
+    </form>
+  </article>
+  <footer>
+    <p>
+      Las Urbinas 110 · Dpto. 33 / Providencia, Santiago.<br>Teléfono: +562 2642 4454. Email:<a href="mailto:carlos@hotmail.com">carlos@hotmail.com</a>
+    </p>
+    <a href="https://es-la.facebook.com/">Facebook</a> |
+    <a href="https://www.instagram.com/">Instagram</a> |
+    <a href="https://www.pinterest.cl/">Pinterest</a> |
+    <a href="https://www.behance.net/">Behance</a> |
+  </footer>
+</body>
+</html>
